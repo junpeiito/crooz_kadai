@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>お問い合わせ｜サンプル株式会社</title>
+<link href="css/import.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/import.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+<a name="top" id="top"></a>
+ 
+<!--↓ここからhead -->
+<div id="hdbox1">
+<div id="hdbox2">
+<div class="over">
+ <div id="hdleft">
+		<h1>見本市のサンプル株式会社</h1>
+  <p id="logo"><a href="./">サンプル株式会社</a></p>
+ </div>
+  <ul id="hdright">
+   <li><img src="images/tel.gif" alt="お電話でのお問い合わせ" /></li>
+   <li class="blue">00-1234-5678</li>
+   <li class="hdtxt" style="margin:0">受付時間 9:30～18:30(月～金)</li>
+  </ul>
+</div>
+ <ul id="gnavi">
+  <li class="gn1"><a href="./">ホーム<br /><span>top</span></a></li>
+  <li class="gn2"><a href="greeting.html">ごあいさつ<br /><span>greeting</span></a></li>
+  <li class="gn3"><a href="service.html" >サービス概要<br /><span>service</span></a></li>
+  <li class="gn4"><a href="company.html">会社概要<br /><span>company</span></a></li>
+  <li class="gn5"><strong><a href="contact.html">お問い合わせ<br /><span>contact</span></a></strong></li>
+ </ul> 
+</div>
+</div>
+<!--↑ここまでhead -->
+
+<!--↓ここからcontents -->
+<div id="visual2">
+ <p>お問い合わせ<span>CONTACT</span></p>
+</div>
+<div id="contents">
+<div id="side">
+<p class="con1">ご不明な点・ご質問等<br />お気軽にお問い合わせ下さい</p>
+<p class="con2"><a href="contact.html"><img src="images/con_btn_off.gif" alt="お問い合わせ" /></a></p>
+<h2>メニュー</h2>
+<ul class="s_menu">
+ <li><a href="greeting.html">ごあいさつ</a></li>
+ <li><a href="service.html">サービス概要</a></li>
+ <li><a href="company.html">会社概要</a></li>
+</ul>
+<ul class="s_btn">
+ <li><a href="#"><img src="images/facebn_off.gif" alt="" /></a></li>
+ <li style="margin:0;"><a href="#"><img src="images/twibn_off.gif" alt="" /></a></li>
+</ul>
+</div>
+
+<div id="main">
+<h2>お問い合わせフォーム</h2>
+<p class="pd2">下記フォームに必要事項をご記入の上、送信ボタンを押してください。<br />メール確認後、担当者より折り返しご連絡させて頂きます。 </p>
+ <p><span class="red">※</span>は必須項目です。必ず入力してください。</p>
+<form name="form1" method="post" action="cgibin/contact.cgi">
+<input name="kakunin" type="hidden" value="1" />
+<input name="hensin" type="hidden" value="1" />
+          
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tbbox2">
+  <tr>
+  <th width="25%">お名前<span class="red">※</span></th>
+  <td width="75%">
+  <input name="name" type="text" class="zenkaku" id="name" size="30" />
+  </td>
+  </tr>
+  <tr>
+  <th>ふりがな<span class="red">※</span></th>
+  <td>
+  <input name="huri" type="text" class="zenkaku" id="huri" size="30" />
+  </td>
+  </tr>
+  <tr>
+  <th>郵便番号</th>
+  <td>
+  <input name="yubin" type="text" class="hankaku" id="yubin" size="30" />
+  </td>
+  </tr>
+    <tr>
+  <th>住所</th>
+  <td>
+  <input name="address" type="text" class="zenkaku" id="address" size="30" />
+  </td>
+  </tr>
+  <tr>
+  <th>電話番号<span class="red">※</span></th>
+  <td>
+  <input name="tel" type="text" class="hankaku" id="tel" size="30" />
+  </td>
+  </tr>
+  <tr>
+  <th>メールアドレス<span class="red">※</span></th>
+  <td>
+  <input name="mail" type="text" class="hankaku" id="mail" size="30" />
+  </td>
+  </tr>
+  <tr>
+  <th> 
+  <p>お問い合わせ内容<span class="red">※</span></p>
+</th>
+  <td>
+  <textarea name="situmon" cols="65" rows="7" class="zenkaku" id="situmon"></textarea>
+  </td>
+  </tr>
+  <tr>
+  <td class="form_btn" colspan="2" style="text-align:center"><input name="image" type="submit" value="送信内容を確認する" /></td>
+  </tr>
+  </table>
+</form>
+</div>
+</div><!--contents-->
+</div><!--wrapper-->
+<!--↑ここまでcontents -->
+
+<!--↓ここからfooter -->
+
+<div id="footer">
+<div id="ftbox1">
+ <div id="ftbox2">
+ <ul>
+  <li><a href="./">ホーム</a></li>
+  <li><a href="greeting.html">ごあいさつ</a></li>
+  <li><a href="service.html">サービス概要</a></li>
+  <li><a href="company.html">アクセス</a></li>
+  <li><a href="contact.html">お問い合わせ</a></li>
+ </ul>
+ <p class="pagetop"><a href="#top"><img src="images/pagetop.gif" alt="ページの上部へ" /></a></p>
+ </div>
+</div>
+
+<div id="ftbox3">
+	<div id="ftbox4">
+	<p class="left">サンプル株式会社&nbsp;&nbsp;&nbsp;〒000-000&nbsp;見本市見本区見本1-1-11</p>
+ <p class="copy">Copyright (c) Sample Co,.ltd All Rights Reserved.</p>
+	</div>
+</div>
+</div>
+<!--↑ここまでfooter -->
+</body>
+</html>
